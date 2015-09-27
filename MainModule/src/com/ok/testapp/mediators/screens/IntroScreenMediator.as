@@ -37,7 +37,7 @@ public class IntroScreenMediator extends Mediator implements IMediator{
 	{
 		dispatch(new ClickCounterEvent(ClickCounterEvent.REGISTER_CLICK));
 		dispatch(new RemoteSendEventEvent(RemoteSendEventEvent.SEND_EVENT,
-				RemoteEventsEnum.GO_MAIN_CLICKED, clickCounterModel.counter));
+				RemoteEventsEnum.WENT_TO_MAIN, clickCounterModel.counter));
 		dispatch(new ViewEvent(ViewEvent.CHANGE_SCREEN, ScreenEnum.SECOND_SCREEN));
 	}
 
