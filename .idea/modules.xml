@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApplicationCommands/ApplicationCommands.iml" filepath="$PROJECT_DIR$/ApplicationCommands/ApplicationCommands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApplicationEvents/ApplicationEvents.iml" filepath="$PROJECT_DIR$/ApplicationEvents/ApplicationEvents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApplicationModels/ApplicationModels.iml" filepath="$PROJECT_DIR$/ApplicationModels/ApplicationModels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApplicationServices/ApplicationServices.iml" filepath="$PROJECT_DIR$/ApplicationServices/ApplicationServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainModule/MainModule.iml" filepath="$PROJECT_DIR$/MainModule/MainModule.iml" />
+    </modules>
+  </component>
+</project>
