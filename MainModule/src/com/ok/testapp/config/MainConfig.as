@@ -50,7 +50,7 @@ public class MainConfig {
 		commandMap = context.injector.getInstance(IEventCommandMap);
 
 		commandMap.map(ClickCounterEvent.REGISTER_CLICK, ClickCounterEvent).toCommand(RegisterClickCommand);
-		commandMap.map(RemoteSaveDateEvent.SAVE_CLICKS, RemoteSaveDateEvent).toCommand(RemoteSaveDateCommand);
+		commandMap.map(RemoteSaveDateEvent.SAVE_DATE, RemoteSaveDateEvent).toCommand(RemoteSaveDateCommand);
 		commandMap.map(RemoteSendEventEvent.SEND_EVENT, RemoteSendEventEvent).toCommand(RemoteSendEventCommand);
 
 		context.injector.map(ClickCounterModel).asSingleton();

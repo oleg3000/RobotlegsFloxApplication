@@ -39,7 +39,7 @@ public class MainScreenMediator extends Mediator {
 
 	private function handleSaveClicksTriggered(event : ScreenEvent) : void
 	{
-		dispatch(new RemoteSaveDateEvent(RemoteSaveDateEvent.SAVE_CLICKS));
+		dispatch(new RemoteSaveDateEvent(RemoteSaveDateEvent.SAVE_DATE));
 	}
 
 	public override function destroy () : void

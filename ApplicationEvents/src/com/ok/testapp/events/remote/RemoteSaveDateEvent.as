@@ -4,7 +4,7 @@ import flash.events.Event;
 
 public class RemoteSaveDateEvent extends Event {
 
-	public static const SAVE_CLICKS : String = "saveClicks";
+	public static const SAVE_DATE : String = "saveDate";
 
 	public function RemoteSaveDateEvent(type : String)
 	{
